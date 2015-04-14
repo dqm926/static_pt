@@ -5,24 +5,28 @@ a{text-decoration:none;}
 /* body,ul,h1,h2,h3,h4,h5,h6,form,dl,p { padding:0; margin:0;} */
 .page_top{height: 30px; background-color:#2CB2F2;}
 
-.page_main{width:1200px; margin: 0 auto; background-color: #E6F0F4; margin: 14px auto; overflow: hidden;}
+.page_main{width:1200px; min-height:608px; margin: 0 auto; background-color: #E6F0F4; margin: 14px auto; overflow: hidden;}
 
-.page_main_left{width: 220px; height: auto; float: left; background-color: #12B4FD; letter-spacing: 1px; color: #fff;}
+.page_main_left{width: 220px; min-height:608px; float: left; background-color: #12B4FD; letter-spacing: 1px; color: #fff; padding-top: 20px;}
 .page_main_left div{height: 35px; margin: 1px 2px; overflow: hidden;}
 .page_main_left .back_a{display:block; margin-left: 30px; margin-top: 8px; color: #fff;}
 .page_main_left .activity_name_p{margin-left: 30px;margin-top: 5px;font-size: 16px;font-weight: bold;}
 .page_main_left .row_60{height: 60px;}
 .page_main_left .content_p{margin-left: 30px; margin-top: 10px;}
 
+.page_main_left .recent_ope{height: 50px; margin: 10px 0 0 30px;}
+.page_main_left .recent_ope div{margin: 2px 0; height: 20px;}
+.page_main_left .recent_ope a{margin-left: 15px; display: block; height: 20px;color: #fff;}
+
 .page_main_right{width: 980px; float: right;}
-.page_main_right .con_btn{overflow:hidden;padding-left: 25px; margin:10px 0px;}
+.page_main_right .con_btn{overflow:hidden;padding-left: 25px; margin:10px 0px; min-height: 122px;}
 .page_main_right .con_btn .con{width: 85%; float: left; padding-bottom: 20px;padding-top: 10px;}
 .page_main_right .con_btn .con .con_title{width: 58px; height:23px; display: block; float: left;margin-top: 2px;}
 .page_main_right .con_btn .con .con_value{width: 168px; height:23px; display: block; float: left; box-shadow: none; border: 1px solid #e5e5e5; background-color: #ffffff;}
 .page_main_right .con_btn .con .one_con{height: 30px; width: 249px; float: left; margin-top: 10px; margin-left: 10px;}
-.page_main_right .con_btn .btn_con{width: 15%; float: right;}
+.page_main_right .con_btn .btn_con{width: 15%; float: right; margin-top: 10px;}
 .page_main_right .con_btn .btn_con .btn{width: 100px; height: 30px; margin: 8px; text-align: center; background: #3499da; cursor:pointer; color: #ffffff; line-height: 30px;letter-spacing: 2px; border-radius:2px;}
-.page_main_right .result_list{overflow:hidden; padding-left: 20px;margin:10px 0px; padding-right: 33px;}
+.page_main_right .result_list{overflow:hidden; padding-left: 20px;margin:10px 0px; padding-right: 33px; height: 402px;}
 .page_main_right .result_list .title{background-color: #3399FF; color:#fff;overflow:hidden;font-weight: bold;}
 .page_main_right .result_list .title div{float: left; height: 42px; line-height: 42px; text-align: center; letter-spacing: 1px;}
 .page_main_right .result_list .result .row{overflow:hidden; color:#303030;font-size: 13px;}
@@ -35,7 +39,25 @@ a{text-decoration:none;}
 .page_main_right .page_con .next{width: 65px;background-color:#3499da; color: #fff;}
 .page_main_right .page_con .current{background-color:#3499da; color: #fff;}
 
-.page_footer{background-color:#DDE6EE;padding: 10px 0; margin-top: 49px;}
+.page_main_right .ac_conbtn{overflow:hidden;padding-left: 25px; margin-top:20px;}
+.page_main_right .ac_conbtn .con{width: 85%; float: left;padding-top: 10px;}
+.page_main_right .ac_conbtn .con .con_line{overflow:hidden; margin-bottom: 16px;}
+.page_main_right .ac_conbtn .con .con_line .one_con{float: left; margin: 0 20px; height: 25px; line-height: 25px;}
+.page_main_right .ac_conbtn .con .con_line .one_con label{float: left; margin-right: 10px;}
+.page_main_right .ac_conbtn .con .con_line .one_con .ac_status_con{float: left; font-size: 12px; width: 300px;}
+.page_main_right .ac_conbtn .con .con_line .one_con .ac_status_con div{float: left; margin: 0 8px; height: 25px; line-height: 25px; width:56px; text-align: center; background: #C9CACE; border-radius:2px; cursor:pointer; letter-spacing: 1px;}
+.page_main_right .ac_conbtn .con .con_line .one_con .ac_status_con .selected{background: #75A7D8;}
+.page_main_right .ac_conbtn .con .con_line .one_con .ac_start_date{float: left; width: 300px;}
+.page_main_right .ac_conbtn .con .con_line .one_con .ac_start_date select{float: left; display: block; margin: 0 8px; height: 25px; line-height: 25px; width: 100px; box-shadow: none; border: 1px solid #e5e5e5; background-color: #ffffff;}
+.page_main_right .ac_conbtn .con .con_value{width: 200px; height:23px; margin: 0 8px; display: block; float: left; box-shadow: none; border: 1px solid #e5e5e5; background-color: #ffffff;}
+
+.page_main_right .ac_conbtn .btn_con{width: 15%; float: right;}
+.page_main_right .ac_conbtn .btn_con .btn{width: 100px; height: 30px; margin: 8px; text-align: center; background: #3499da; cursor:pointer; color: #ffffff; line-height: 30px;letter-spacing: 2px; border-radius:2px;}
+
+.page_main_right .ac_result_list{overflow:hidden; margin:10px 0 10px 10px; padding-right: 33px; height: 440px;}
+.page_main_right .ac_result_list .one_ac{width: 151px; height: 200px; background: #c2e7f7; border-radius:2px; float: left; margin: 10px 0 10px 36px;}
+
+.page_footer{background-color:#DDE6EE;padding: 10px 0; margin-top: 29px;}
 .page_footer .content{font-size: 14px;color:gray;font-weight:bold;width: 478px; margin: 2px auto;}
 .page_footer .content a{color:gray; margin: 2px 3px;}
 .page_footer .content span{margin: 2px 3px;}
